@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ProvileView: View {
+struct HomeView: View {
     @EnvironmentObject var viewModel: AuthViewModel
     @State private var selectedFilter = 0
     @State private var searchText = ""
@@ -113,5 +113,5 @@ struct ProvileView: View {
 }
 
 #Preview {
-    ProvileView().environmentObject(AuthViewModel())
+    HomeView().environmentObject(AuthViewModel())
 }

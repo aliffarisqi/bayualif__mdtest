@@ -109,6 +109,7 @@ class AuthViewModel: ObservableObject{
     }
     
     func fetchAllUsers() async {
+        print("mauks boy")
         do {
             let querySnapshot = try await db.collection("users").getDocuments()
             allUsers = querySnapshot.documents.compactMap { document in
