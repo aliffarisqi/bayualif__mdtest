@@ -14,6 +14,7 @@ struct ContentView: View {
         Group{
             if viewModel.userSession != nil{
                 ProvileView()
+//                LoginView()
             }else{
                 LoginView()
             }

@@ -47,6 +47,8 @@
 		119A516A2BF46A5500E33239 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 119A51692BF46A5500E33239 /* FirebaseStorageCombine-Community */; };
 		119A516C2BF46A5500E33239 /* FirebaseVertexAI-Preview in Frameworks */ = {isa = PBXBuildFile; productRef = 119A516B2BF46A5500E33239 /* FirebaseVertexAI-Preview */; };
 		119A51702BF46AD000E33239 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119A516F2BF46AD000E33239 /* AuthViewModel.swift */; };
+		11CCF1362BF5AB230013BE8A /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CCF1352BF5AB230013BE8A /* ForgotPasswordView.swift */; };
+		11CCF1382BF5D4A20013BE8A /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CCF1372BF5D4A20013BE8A /* UserViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +65,8 @@
 		119A51302BF4630300E33239 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
 		119A51322BF468E500E33239 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		119A516F2BF46AD000E33239 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		11CCF1352BF5AB230013BE8A /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		11CCF1372BF5D4A20013BE8A /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,6 +211,7 @@
 			children = (
 				119A51262BF4382E00E33239 /* LoginView.swift */,
 				119A512A2BF444E000E33239 /* RegisterView.swift */,
+				11CCF1352BF5AB230013BE8A /* ForgotPasswordView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -215,6 +220,7 @@
 			isa = PBXGroup;
 			children = (
 				119A516F2BF46AD000E33239 /* AuthViewModel.swift */,
+				11CCF1372BF5D4A20013BE8A /* UserViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -324,6 +330,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				119A51312BF4630300E33239 /* Users.swift in Sources */,
+				11CCF1382BF5D4A20013BE8A /* UserViewModel.swift in Sources */,
 				119A51272BF4382E00E33239 /* LoginView.swift in Sources */,
 				119A512B2BF444E000E33239 /* RegisterView.swift in Sources */,
 				119A512F2BF45F9400E33239 /* SettingRowView.swift in Sources */,
@@ -331,6 +338,7 @@
 				119A51122BF4375800E33239 /* ContentView.swift in Sources */,
 				119A512D2BF45D6100E33239 /* ProvileView.swift in Sources */,
 				119A51102BF4375800E33239 /* LoginSystemSwiftUIApp.swift in Sources */,
+				11CCF1362BF5AB230013BE8A /* ForgotPasswordView.swift in Sources */,
 				119A51702BF46AD000E33239 /* AuthViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
