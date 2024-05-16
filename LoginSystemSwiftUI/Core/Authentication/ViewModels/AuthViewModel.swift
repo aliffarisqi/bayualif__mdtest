@@ -38,12 +38,13 @@ class AuthViewModel: ObservableObject{
             if signInResult.user.isEmailVerified{
                 try await updateEmailVerificationStatus(for: signInResult.user)
                 self.userSession = signInResult.user
+                await fetchAllUsers()
                 await fetchCurrentUser()
                 
                 return true
             }else{
                 print("masuk 2")
-                throw NSError(domain: "Email Verification", code: 0, userInfo: [NSLocalizedDescriptionKey: "Email is not verified"])
+                throw NSError(domain: "Email Verification", code: 0, userInfo: [NSLocalizedDescriptionKey: "Sistem Login dengan Swift dan Firebase"])
             }
         }catch{
             throw error
