@@ -11,4 +11,5 @@ enum SFSymbol {
     static let rightArrow = "arrow.right"
     static let check = "checkmark.circle.fill"
     static let xmark = "xmark.circle.fill"
+    static let logOut = "arrow.left.circle.fill"
 }
