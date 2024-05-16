@@ -71,6 +71,7 @@ struct HomeView: View {
             }
             .onAppear {
                 homeViewModel.setUsers(authViewModel.allUsers)
+                
             }
         }
     }
