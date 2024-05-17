@@ -46,12 +46,6 @@ the following software:
 
 ### 📲 USSAGE
 
-email verifikasi
-lupa pass
-searching
-filter
-signup
-
 **1. User Registration**
  * To register a new user, you can use the registration form and enter your full name, email address and password and confirm the password, the minimum password is 6 characters. After completing the form, the system will send a verification email to the email address provided.
 
