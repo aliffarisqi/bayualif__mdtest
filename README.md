@@ -1,6 +1,6 @@
 # 🚀 Login System using Swift and Firebase
 
-This is a login system built using Swift and Firebase to fulfill duties in the recruitment process as an iOS Developer at FAN IT. This system includes user registration, login, forgotten password and email verification features. In addition, the main page displays a list of registered users, displays their email verification status, logged in user profiles. there is a feature to search using name and email, then there is a filter feature based on email verification.
+This is a login system built using Swift and Firebase . This system includes user registration, login, forgotten password and email verification features. In addition, the main page displays a list of registered users, displays their email verification status, logged in user profiles. there is a feature to search using name and email, then there is a filter feature based on email verification.
 
 
 ### 🌟 MAIN FITUR
